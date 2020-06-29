@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<target>
+  <architecture>riscv</architecture>
+  <feature name="org.gnu.gdb.riscv">
+    <reg name="r0" bitsize="32"/>
+    <reg name="r1" bitsize="32"/>
+  </feature>
+</target>
